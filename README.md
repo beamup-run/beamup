@@ -13,6 +13,13 @@ generally available product.
 It gives an application a persistent identity, explicit capabilities, governed
 access, and a path between supported runners.
 
+## How BeamUp works
+
+[Read the technical walkthrough](docs/how-beamup-works.md) to follow one
+application from a local WebAssembly bundle through capability review, stable
+sharing, state, updates, and managed placement. It shows how the planned public
+components and the hosted commercial service form one system.
+
 ## Why this repository exists now
 
 We want the open-source boundary to be visible before the source arrives.
@@ -64,8 +71,6 @@ You can:
 - follow this repository for future releases
 - open an issue about the documented boundary
 - [request private alpha access](https://beamup.run/request-access?source=github)
-- read [How BeamUp works](https://beamup.run) as the public technical material
-  is published
 
 ## License
 
