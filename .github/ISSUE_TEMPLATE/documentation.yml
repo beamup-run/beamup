@@ -1,0 +1,30 @@
+name: Documentation correction
+description: Report an ambiguity or inaccuracy in the current public documentation.
+title: "[docs] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This repository does not contain BeamUp implementation source yet.
+        Do not include secrets, customer data, or security exploit details.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is unclear or incorrect?
+      description: Point to the exact document and explain the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction
+      description: Describe the wording or boundary you expected.
+    validations:
+      required: true
+  - type: checkboxes
+    id: claim
+    attributes:
+      label: Claim boundary
+      options:
+        - label: I understand that planned source is not published source.
+          required: true

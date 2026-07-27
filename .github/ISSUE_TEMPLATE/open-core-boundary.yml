@@ -1,0 +1,31 @@
+name: Open-core boundary feedback
+description: Suggest a trust, portability, or interoperability surface for the public repository.
+title: "[boundary] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for concrete feedback about what developers should be able
+        to inspect, verify, or interoperate with. It is not a feature-request
+        form for the hosted BeamUp product.
+  - type: textarea
+    id: surface
+    attributes:
+      label: Which surface should be public?
+      description: Name the artifact, local boundary, format, or compatibility contract.
+    validations:
+      required: true
+  - type: textarea
+    id: trust
+    attributes:
+      label: What should a developer be able to verify?
+      description: Explain the trust, recovery, portability, or interoperability need.
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Commercial or security boundary
+      description: Note any reason this surface should remain hosted or private.
+    validations:
+      required: false
