@@ -3,6 +3,3 @@ contact_links:
   - name: Request private alpha access
     url: https://beamup.run/request-access?source=github
     about: Bring a real agent-built application using synthetic or low-risk data.
-  - name: Report a security concern privately
-    url: https://github.com/beamup-run/beamup/security/policy
-    about: Read the private reporting path before sharing vulnerability details.
