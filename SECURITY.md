@@ -16,7 +16,9 @@ Do not open a public issue for:
 - private source or customer data
 - reusable endpoint or infrastructure identifiers
 
-Send a private report to [team@beamup.run](mailto:team@beamup.run?subject=%5Bsecurity%5D%20BeamUp%20report)
+Use [GitHub's private vulnerability reporting form](https://github.com/beamup-run/beamup/security/advisories/new)
+or send a private report to
+[team@beamup.run](mailto:team@beamup.run?subject=%5Bsecurity%5D%20BeamUp%20report)
 with `[security]` in the subject. Include only the minimum information required
 to understand the concern. Do not send live credentials or sensitive customer
 payloads.
